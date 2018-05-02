@@ -3,7 +3,7 @@
 #-------------------------------
 
 resource "aws_iam_instance_profile" "ec2_profile" {
-  name = "${var.pj_name}_${var.env}_ec2_iam_role_profile"
+  name = "${var.pj_name}_${var.env}_ec2_iam_role_prof"
   role = "${aws_iam_role.ec2_role.name}"
 }
 

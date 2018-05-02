@@ -23,7 +23,7 @@ module "development" {
   # 共通
   pj_name  = "first-dev"
   env      = "development"
-  key_pair = "ec2key_first-dev"
+  key_pair = "ec2key-first-dev"
 
   # VPC
   vpc_cidr_block = "172.30.0.0/16"
