@@ -1,4 +1,4 @@
-# ticket_terraform
+# my_terraform
 
 ## 実行方法
 
